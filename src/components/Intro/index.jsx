@@ -17,7 +17,7 @@ export default function index() {
         start: "top",
         end: "+=500px",
         scrub: true,
-        markers: true,
+        // markers: true,
       },
     });
 
@@ -50,7 +50,7 @@ export default function index() {
           />
         </div>
         <h1 data-scroll data-scroll-speed=".7">
-          Gracie & Antonia
+          Save the Date
         </h1>
       </div>
     </div>

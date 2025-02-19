@@ -2,6 +2,8 @@
 import { useEffect } from "react";
 import styles from "./page.module.css";
 import Intro from "../components/Intro";
+import Description from "../components/Description";
+import Pages from "../components/Pages";
 
 export default function Home() {
   useEffect(() => {
@@ -14,6 +16,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Intro />
+      <Description />
+      <Pages />
     </main>
   );
 }
