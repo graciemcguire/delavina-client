@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Intro />
-      <Description />
-      <Pages />
+      {/* <Description /> */}
+      {/* <Pages /> */}
     </main>
   );
 }

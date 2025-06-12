@@ -1,4 +1,4 @@
-/* === ORIGINAL DESKTOP STYLES === */
+/* === Desktop styles === */
 
 .backgroundImage {
   width: 100%;
@@ -38,18 +38,72 @@
   object-position: top;
 }
 
-/* === MOBILE-ONLY OVERRIDES === */
+/* === Shared mobile + desktop scroll layout === */
+
+.mobileIntro {
+  position: relative;
+  width: 100%;
+  min-height: 200vh;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-top: 100px;
+  transition: opacity 0.3s ease;
+}
+
+.descriptionContainer {
+  margin-top: 100vh;
+  position: relative;
+  z-index: 2;
+  padding: 24px 16px;
+}
+
+.logoWrapper {
+  position: static; /* normal behavior on desktop */
+}
+
+/* === Responsive overrides for mobile === */
 
 @media screen and (max-width: 768px) {
-  .backgroundImage {
-    height: 100vh; /* less scrolling space on mobile */
+  .introImage {
+    width: 90vw;
+    height: auto;
+    position: relative;
   }
 
   .introContainer {
-    margin-top: 20vh;
     flex-direction: column;
-    gap: 16px;
-    padding: 0 16px;
-    align-items: ;
+    margin-top: 20vh;
+    text-align: center;
+  }
+
+  .introContainer h1 {
+    font-size: 5vh;
+  }
+
+  .logoWrapper {
+    position: sticky;
+    top: 40px; /* or whatever vertical offset looks right */
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    pointer-events: none; /* optional: allows scroll through */
   }
 }

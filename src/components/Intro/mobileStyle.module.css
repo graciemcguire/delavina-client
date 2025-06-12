@@ -1,0 +1,20 @@
+.mobileIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+.background {
+  width: 100%;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 16px;
+}
