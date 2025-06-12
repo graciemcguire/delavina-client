@@ -6,20 +6,20 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const projects = [
   {
-    title: "RSVP",
-    src: "salar_de_atacama.jpg",
+    title: "more",
+    src: "rain1.jpg",
   },
   {
-    title: "Accomodations",
-    src: "valle_de_la_muerte.jpeg",
+    title: "details",
+    src: "thaidiner1.jpg",
   },
   {
-    title: "Schedule",
-    src: "miscani_lake.jpeg",
+    title: "coming",
+    src: "thaidiner2.jpg",
   },
   {
-    title: "FAQ",
-    src: "miniques_lagoon.jpg",
+    title: "soon",
+    src: "skateboard2.jpg",
   },
 ];
 

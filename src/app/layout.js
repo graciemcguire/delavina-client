@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "G + A",
-  description: "October 2026 - Barcelona, Spain",
+  description: "October 8th 2026 - Penedés, Spain",
 };
 
 export default function RootLayout({ children }) {

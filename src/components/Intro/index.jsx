@@ -30,7 +30,7 @@ export default function index() {
     <div className={styles.intro}>
       <div ref={backgroundImage} className={styles.backgroundImage}>
         <Image
-          src={"/images/maxresdefault.jpg"}
+          src={"/images/skateboard1.jpg"}
           fill={true}
           alt="background image"
         />
@@ -43,11 +43,7 @@ export default function index() {
           data-scroll-speed=".3"
           className={styles.introImage}
         >
-          <Image
-            src={"/images/intro-image.jpg"}
-            fill={true}
-            alt="intro image"
-          />
+          <Image src={"/images/train1.jpg"} fill={true} alt="intro image" />
         </div>
         <h1 data-scroll data-scroll-speed=".7">
           Save the Date
