@@ -45,9 +45,18 @@ export default function index() {
         >
           <Image src={"/images/train1.jpg"} fill={true} alt="intro image" />
         </div>
-        <h1 data-scroll data-scroll-speed=".7">
+        {/* <h1 data-scroll data-scroll-speed=".7">
           Save the Date
-        </h1>
+        </h1> */}
+        <Image
+          src="/images/name_graphic.svg"
+          alt="Gracie & Antonia"
+          width={1000} // adjust size as needed
+          height={600}
+          zindex={1}
+          data-scroll
+          data-scroll-speed=".7"
+        />
       </div>
     </div>
   );

@@ -4,10 +4,10 @@ import gsap from "gsap";
 import styles from "./style.module.css";
 
 const phrases = [
-  "Gracie & Antonia",
-  // "Mas Palou",
-  "October 2026",
-  "Barcelona, Spain",
+  "Save The Date",
+  "October 8th 2026",
+  "Mas Palou",
+  "Penedés, Spain",
 ];
 
 export default function Index() {

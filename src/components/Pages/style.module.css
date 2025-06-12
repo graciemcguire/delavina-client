@@ -39,6 +39,7 @@
   flex-direction: column;
   position: relative;
   margin-top: 200px;
+  padding-right: 50px;
 }
 
 .projectEl {
