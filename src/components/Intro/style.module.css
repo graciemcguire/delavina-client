@@ -1,3 +1,5 @@
+/* === ORIGINAL DESKTOP STYLES — KEEP THESE INTACT === */
+
 .backgroundImage {
   width: 100%;
   height: 170vh;
@@ -34,4 +36,20 @@
 .introImage img {
   object-fit: cover;
   object-position: top;
+}
+
+/* === MOBILE-ONLY OVERRIDES === */
+
+@media screen and (max-width: 768px) {
+  .backgroundImage {
+    height: 100vh; /* less scrolling space on mobile */
+  }
+
+  .introContainer {
+    margin-top: 20vh;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+    align-items: ;
+  }
 }

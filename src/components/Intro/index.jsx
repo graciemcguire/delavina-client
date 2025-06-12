@@ -31,8 +31,9 @@ export default function index() {
       <div ref={backgroundImage} className={styles.backgroundImage}>
         <Image
           src={"/images/skateboard1.jpg"}
-          fill={true}
+          fill
           alt="background image"
+          priority
         />
       </div>
 
@@ -43,14 +44,13 @@ export default function index() {
           data-scroll-speed=".3"
           className={styles.introImage}
         >
-          <Image src={"/images/train1.jpg"} fill={true} alt="intro image" />
+          <Image src={"/images/train1.jpg"} fill alt="intro image" />
         </div>
         <Image
           src="/images/name_graphic.svg"
           alt="Gracie & Antonia"
           width={1000} // adjust size as needed
           height={600}
-          zindex={1}
           data-scroll
           data-scroll-speed=".7"
         />
